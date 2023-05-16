@@ -1,5 +1,5 @@
 package bangun2D;
 
-public class SegitigaSamaSisi {
+public class SegitigaSamaSisi extends Segitiga{
     //TODO: Belum Jadi Sama Sekali (Hapus yang tidak perlu)
 }
