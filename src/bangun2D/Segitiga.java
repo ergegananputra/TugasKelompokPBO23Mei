@@ -22,6 +22,7 @@ public abstract class Segitiga {
         return "Segitiga{" + "alas" + alas +"' lebar=" + tinggi + "}";
     }
 
+
     public double getAlas() {
         return alas;
     }
