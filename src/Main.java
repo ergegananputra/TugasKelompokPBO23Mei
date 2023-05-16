@@ -9,9 +9,9 @@ public class Main {
         // bangun 2D
         Persegi persegi = new Persegi(10);
         PersegiPanjang persegiPanjang = new PersegiPanjang(5, 10);
-        SegitigaSamaKaki segitigaSamaKaki = new SegitigaSamaKaki();
+        SegitigaSamaKaki segitigaSamaKaki = new SegitigaSamaKaki(4, 8);
         SegitigaSamaSisi segitigaSamaSisi = new SegitigaSamaSisi();
-        SegitigaSiku segitigaSiku = new SegitigaSiku();
+        SegitigaSiku segitigaSiku = new SegitigaSiku(4,4);
 
         List<Object> bangun2D = Arrays.asList(persegi, persegiPanjang, segitigaSamaKaki, segitigaSamaSisi, segitigaSiku);
         System.out.println("=== Bangun 2D ===");
