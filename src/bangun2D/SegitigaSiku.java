@@ -1,13 +1,9 @@
 package bangun2D;
 
 public class SegitigaSiku extends Segitiga {
-    //Atributes
-    private double sisiMiring;
-
     //Constructor
-    public SegitigaSiku(double alas, double tinggi, double sisiMiring){
-        super(alas, tinggi);
-        this.sisiMiring = sisiMiring;   
+    public SegitigaSiku(double alas, double tinggi){
+        super(alas, tinggi); 
     }
 
     //Methods
@@ -17,15 +13,11 @@ public class SegitigaSiku extends Segitiga {
     }
 
     public String toString(){
-        return "SegitigaSiku{" + "alas=" + getAlas() +"' tinggi=" + getTinggi() + "' sisiMiring=" + getSisiMiring() +"}";
+        return "SegitigaSiku{" + "alas=" + getAlas() +"' tinggi=" + getTinggi() +"}";
     }
 
     //Getter Setter
     public double getSisiMiring() {
-        return this.sisiMiring;
-    }
-
-    public void setSisiMiring(double sisiMiring) {
-        this.sisiMiring = sisiMiring;
+        return Math.sqrt(Math.pow(getAlas(), 2) + Math.pow(getTinggi(), 2));
     }
 }
