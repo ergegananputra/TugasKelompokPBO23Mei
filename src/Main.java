@@ -1,3 +1,4 @@
+import Paket.MainRunTimePaket;
 import bangun2D.*;
 import bangun3D.*;
 
@@ -10,7 +11,7 @@ public class Main {
         Persegi persegi = new Persegi(10);
         PersegiPanjang persegiPanjang = new PersegiPanjang(5, 10);
         SegitigaSamaKaki segitigaSamaKaki = new SegitigaSamaKaki(4, 8);
-        SegitigaSamaSisi segitigaSamaSisi = new SegitigaSamaSisi();
+        SegitigaSamaSisi segitigaSamaSisi = new SegitigaSamaSisi(4, 4);
         SegitigaSiku segitigaSiku = new SegitigaSiku(4,4);
 
         List<Object> bangun2D = Arrays.asList(persegi, persegiPanjang, segitigaSamaKaki, segitigaSamaSisi, segitigaSiku);
@@ -48,6 +49,8 @@ public class Main {
     }
     public static void main(String[] args) {
         Main publicFacility = new Main();
-        publicFacility.simpleGroundTestAvailableClass();
+//        publicFacility.simpleGroundTestAvailableClass();
+
+        MainRunTimePaket.run();
     }
 }
