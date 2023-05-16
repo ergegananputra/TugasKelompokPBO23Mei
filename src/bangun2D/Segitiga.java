@@ -1,16 +1,17 @@
 package bangun2D;
 
 public abstract class Segitiga {
+    //Atributes
     private double alas;
     private double tinggi;
 
-
+    //Constructor
     public Segitiga(double alas, double tinggi){
         this.alas = alas;
         this.tinggi = tinggi;
     }
 
-
+    //Methods
     public double getLuas(){
         return alas*tinggi/2;
     }
@@ -22,7 +23,7 @@ public abstract class Segitiga {
         return "Segitiga{" + "alas" + alas +"' lebar=" + tinggi + "}";
     }
 
-
+    //Getter Setter
     public double getAlas() {
         return alas;
     }
