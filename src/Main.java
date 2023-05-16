@@ -32,7 +32,7 @@ public class Main {
         Kerucut kerucut = new Kerucut();
         Kubus kubus = new Kubus(10);
         Limas limas = new Limas();
-        Prisma prisma = new Prisma();
+        PrismaSegitiga prisma = new PrismaSegitiga(segitigaSamaSisi, 10);
         Tabung tabung = new Tabung(7, 10);
 
         List<Object> bangun3D = Arrays.asList(balok, kerucut, kubus, limas, prisma, tabung);
