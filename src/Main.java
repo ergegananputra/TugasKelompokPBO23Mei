@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
+    public void simpleGroundTestAvailableClass(){
         // bangun 2D
         Persegi persegi = new Persegi(10);
         PersegiPanjang persegiPanjang = new PersegiPanjang(5, 10);
@@ -45,8 +45,9 @@ public class Main {
                 System.out.println("[ Unimplemented Error! ] \t" + bangun.getClass());
             }
         }
-
-
-
+    }
+    public static void main(String[] args) {
+        Main publicFacility = new Main();
+        publicFacility.simpleGroundTestAvailableClass();
     }
 }
