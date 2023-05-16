@@ -1,7 +1,6 @@
 import bangun2D.*;
 import bangun3D.*;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
