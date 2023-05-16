@@ -1,4 +1,7 @@
-package Paket;
+package TestingFacilities;
+
+import Paket.Mahasiswa;
+import Paket.Manusia;
 
 public class MainRunTimePaket {
     public static void run(){
