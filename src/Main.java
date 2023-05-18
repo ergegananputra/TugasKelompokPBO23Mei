@@ -6,7 +6,16 @@ import TestingFacilities.*;
 public class Main {
 
     public static void main(String[] args) {
-//        MainRunTimeBangun.run();
+        MainRunTimeBangun.run();
+        divider(5);
         MainRunTimePaket.run();
+    }
+
+
+
+    public static void divider(int spacing){
+        for (int i = 0; i < spacing; i++) {
+            System.out.println();
+        }
     }
 }

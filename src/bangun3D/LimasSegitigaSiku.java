@@ -24,9 +24,8 @@ public class LimasSegitigaSiku extends Limas{
     @Override
     public String toString() {
         return "LimasSegitigaSamaKaki{" +
-                "a alas = " + alas.getAlas() +
-                " t alas = " + alas.getTinggi() +
-                " tinggi = " + getTinggi() +
+                "alas=" + alas +
+                ", tinggi=" + getTinggi() +
                 '}';
     }
 }

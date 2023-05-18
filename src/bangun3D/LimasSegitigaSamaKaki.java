@@ -1,10 +1,12 @@
- private SegitigaSamaKaki alas;
+package bangun3D;
+import bangun2D.SegitigaSamaKaki;
 
+public  class LimasSegitigaSamaKaki extends Limas {
+    private SegitigaSamaKaki alas;
     public LimasSegitigaSamaKaki(double tinggi, SegitigaSamaKaki alas) {
         super(tinggi);
         this.alas = alas;
     }
-
 
     @Override
     public double getLuasAlas() {
@@ -19,9 +21,8 @@
     @Override
     public String toString() {
         return "LimasSegitigaSamaKaki{" +
-                "a alas = " + alas.getAlas() +
-                " t alas = " + alas.getTinggi() +
-                " tinggi = " + getTinggi() +
+                "alas=" + alas +
+                ", tinggi=" + getTinggi() +
                 '}';
     }
 }

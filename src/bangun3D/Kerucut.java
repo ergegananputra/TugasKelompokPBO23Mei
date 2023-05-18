@@ -45,6 +45,6 @@ public class Kerucut {
     
     @Override
     public String toString() {
-        return "Kerucut{" + "r=" + getR() + "t" + getT() + "}";
+        return "Kerucut{" + "r=" + getR() + ", t=" + getT() + "}";
     }
 }

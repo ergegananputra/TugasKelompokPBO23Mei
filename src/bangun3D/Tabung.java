@@ -40,6 +40,6 @@ public class Tabung {
 
     @Override
     public String toString() {
-        return "Tabung{" + "r=" + r + "tinggi=" + tinggi + '}';
+        return "Tabung{" + "r=" + r + ", tinggi=" + tinggi + '}';
     }
 }

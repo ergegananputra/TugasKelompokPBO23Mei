@@ -28,6 +28,6 @@ public class Kubus extends Persegi {
 
     @Override
     public String toString() {
-        return "Kubus{" + "sisi" + getSisi() + '}';
+        return "Kubus{" + "sisi=" + getSisi() + '}';
     }
 }

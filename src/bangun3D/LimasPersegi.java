@@ -24,8 +24,8 @@ public class LimasPersegi extends Limas {
     @Override
     public String toString() {
         return "LimasPersegi{" +
-                "sisi alas = " + alas +
-                " tinggi = " + getTinggi() +
+                "alas=" + alas +
+                ", tinggi=" + getTinggi() +
                 '}';
     }
 }

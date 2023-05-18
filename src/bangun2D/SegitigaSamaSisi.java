@@ -1,18 +1,31 @@
 package bangun2D;
 
 public class SegitigaSamaSisi extends Segitiga{
-    //TODO: Belum Jadi Sama Sekali (Hapus yang tidak perlu)
-    public SegitigaSamaSisi(double alas, double tinggi) {
-        super(alas, tinggi);
-        //TODO: Delete this!
-        throw new RuntimeException("Unimplemented Error");
+    public SegitigaSamaSisi(double sisi) {
+        super(sisi, 0);
+        super.setTinggi(getTinggi());
     }
 
-    // Auto-Generated Content
+    @Override
+    public double getTinggi() {
+        double sisi = getAlas();
+        double t = sisi*sisi - (sisi/2)*(sisi/2);
+        return Math.sqrt(t);
+    }
+
+    @Override
+    public void setTinggi(double tinggi) {
+        double alasBaru = Math.sqrt((4.0/3)*tinggi*tinggi);
+        setAlas(alasBaru);
+    }
+
     @Override
     public double getKeliling() {
-        //TODO: Unimplemented
-        System.out.println("SegitigaSamaSisi.getKeliling still UNIMPLEMENTED");
-        throw new RuntimeException("Unimplemented Error");
+        return 3 * getAlas();
+    }
+
+    @Override
+    public String toString() {
+        return "SegitigaSamaSisi{sisi="+ getAlas() + " }";
     }
 }

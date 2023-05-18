@@ -18,6 +18,6 @@ public class SegitigaSamaKaki extends Segitiga{
 
     @Override
     public String toString() {
-        return "SegitigaSamaKaki{" + "alas" + getAlas() +" lebar=" + getTinggi() + "}";
+        return "SegitigaSamaKaki{" + "alas" + getAlas() +", lebar=" + getTinggi() + "}";
     }
 }

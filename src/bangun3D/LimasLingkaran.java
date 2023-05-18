@@ -24,8 +24,8 @@ public class LimasLingkaran extends Limas {
     @Override
     public String toString() {
         return "LimasLingkaran{" +
-                "R alas = " + alas.getR() +
-                " tinggi = " + getTinggi() +
+                "alas=" + alas +
+                ", tinggi=" + getTinggi() +
                 '}';
     }
 }

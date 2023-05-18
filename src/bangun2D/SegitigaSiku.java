@@ -13,7 +13,7 @@ public class SegitigaSiku extends Segitiga {
     }
 
     public String toString(){
-        return "SegitigaSiku{" + "alas=" + getAlas() +"' tinggi=" + getTinggi() +"}";
+        return "SegitigaSiku{" + "alas=" + getAlas() +", tinggi=" + getTinggi() +"}";
     }
 
     //Getter Setter
