@@ -10,7 +10,7 @@ public class MainRunTimePaket {
         a1.setNama("Aji");
         System.out.println(a1.getNama());
 
-        Manusia a2 = new Manusia("Budi");
+        Manusia a2 = new Mahasiswa("Budi");
         System.out.println(a2);
         a2.setNama("Bayu");
         System.out.println(a2.getNama());
