@@ -1,7 +1,7 @@
 package Paket;
 
 public class Mahasiswa extends Manusia{
-    private String nama;
+    private String nama = "Agus";
     public Mahasiswa(String nama) {
         super(nama);
     }
