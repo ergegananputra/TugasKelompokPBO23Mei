@@ -1,5 +1,7 @@
 package bangun2D;
 
+import Matematika.Matematika;
+
 public class SegitigaSiku extends Segitiga {
     //Constructor
     public SegitigaSiku(double alas, double tinggi){
@@ -18,6 +20,6 @@ public class SegitigaSiku extends Segitiga {
 
     //Getter Setter
     public double getSisiMiring() {
-        return Math.sqrt(Math.pow(getAlas(), 2) + Math.pow(getTinggi(), 2));
+        return Matematika.getMiring(getAlas()/2, getTinggi());
     }
 }

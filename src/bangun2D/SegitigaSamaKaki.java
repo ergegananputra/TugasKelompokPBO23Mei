@@ -1,4 +1,6 @@
 package bangun2D;
+import Matematika.Matematika;
+
 import java.lang.Math;
 
 public class SegitigaSamaKaki extends Segitiga{
@@ -6,10 +8,12 @@ public class SegitigaSamaKaki extends Segitiga{
         super(alas, tinggi);
     }
 
+    public double getSisiMiring() {
+        return Matematika.getMiring(getAlas()/2, getTinggi());
+    }
     @Override
     public double getKeliling() {
-        double sisiMiring = Math.sqrt(Math.pow(getAlas(), 2) + Math.pow(getTinggi(), 2));
-        return sisiMiring * 2 + getAlas();
+        return getSisiMiring() * 2 + getAlas();
     }
 
     public double getLuas() {

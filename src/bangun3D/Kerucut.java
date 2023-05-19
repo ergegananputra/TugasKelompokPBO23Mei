@@ -1,7 +1,7 @@
 package bangun3D;
+import Matematika.Matematika;
 
 public class Kerucut {
-    private double phi = 22.0/7;
     private double r;
     private double t;
     
@@ -27,20 +27,19 @@ public class Kerucut {
     }
     
     public double getLuasAlas() {
-        return phi*r*r;
+        return Matematika.phi*r*r;
     }
     
     public double getSisiMiring() {
-        double s = getR()*getR() + getT()*getT();
-        return Math.sqrt(s);
+        return Matematika.getMiring(getR(), getT());
     }
     
     public double getLuas() {
-        return getLuasAlas() + phi*getR()*getSisiMiring();
+        return getLuasAlas() + Matematika.phi*getR()*getSisiMiring();
     }
     
     public double getVolume() {
-        return phi*getR()*getR()*getT();
+        return Matematika.phi*getR()*getR()*getT();
     }
     
     @Override
