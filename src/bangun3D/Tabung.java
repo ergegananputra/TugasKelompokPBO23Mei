@@ -1,7 +1,8 @@
 package bangun3D;
+import Matematika.Matematika;
 
 public class Tabung {
-    private double phi = 22.0/7;
+
     private double r;
     private double tinggi;
 
@@ -27,15 +28,15 @@ public class Tabung {
     }
 
     private double getLuas() {
-        return 2*getLuasAlas() + 2*phi*r*tinggi;
+        return 2*getLuasAlas() + 2* Matematika.phi *r*tinggi;
     }
 
     private double getLuasAlas() {
-        return phi*r*r;
+        return Matematika.phi*r*r;
     }
 
     public double getVolume() {
-        return phi*r*r*tinggi;
+        return Matematika.phi*r*r*tinggi;
     }
 
     @Override
