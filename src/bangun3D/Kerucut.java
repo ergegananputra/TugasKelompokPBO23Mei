@@ -1,37 +1,19 @@
 package bangun3D;
 import Matematika.Matematika;
 
-public class Kerucut {
-    private double r;
-    private double t;
+public class Kerucut extends Tabung{
     
-    public Kerucut(double r, double t) {
-        this.r = r;
-        this.t = t;
-    }
-    
-    public double getR() {
-        return r;
-    }
-
-    public void setR(double r) {
-        this.r = r;
-    }
-
-    public double getT() {
-        return t;
-    }
-
-    public void setT(double t) {
-        this.t = t;
+    public Kerucut(double r, double tinggi) {
+        super(r, tinggi);
     }
     
     public double getLuasAlas() {
-        return Matematika.phi*r*r;
+        return Matematika.phi*getR()*getR();
     }
     
     public double getSisiMiring() {
-        return Matematika.getMiring(getR(), getT());
+        double a = getR() * getR() + getTinggi() * getTinggi();
+        return Math.sqrt(a);
     }
     
     public double getLuas() {
@@ -39,11 +21,11 @@ public class Kerucut {
     }
     
     public double getVolume() {
-        return Matematika.phi*getR()*getR()*getT();
+        return Matematika.phi*getR()*getR()*getTinggi();
     }
     
     @Override
     public String toString() {
-        return "Kerucut{" + "r=" + getR() + ", t=" + getT() + "}";
+        return "Kerucut{" + "r=" + getR() + ", t=" + getTinggi() + "}";
     }
 }
