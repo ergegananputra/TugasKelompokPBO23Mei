@@ -10,7 +10,7 @@ public class Manusia {
     }
 
     public void setNama(String nama) {
-        this.nama = nama + nama;
+        this.nama = nama;
     }
 
     @Override
