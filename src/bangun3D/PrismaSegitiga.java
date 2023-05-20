@@ -32,7 +32,7 @@ public class PrismaSegitiga {
 
     // Method
     public double getVolume(){
-        return alas.getAlas() * tinggi;
+        return alas.getLuas() * tinggi;
     }
     public double getLuas(){
         return 2 * alas.getLuas() + alas.getKeliling() * tinggi;
