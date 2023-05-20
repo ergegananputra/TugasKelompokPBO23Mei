@@ -1,4 +1,4 @@
-package TestingFacilities;
+package TestingFacilities.MainFromSlides;
 
 import bangun2D.Segitiga;
 import bangun2D.SegitigaSamaKaki;

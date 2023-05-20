@@ -1,4 +1,4 @@
-package TestingFacilities;
+package TestingFacilities.MainFromSlides;
 
 import bangun3D.PrismaSegitiga;
 
