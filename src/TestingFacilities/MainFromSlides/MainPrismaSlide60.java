@@ -14,8 +14,4 @@ public class MainPrismaSlide60 {
           System.out.println("Error: " + e.getMessage());
     }
 }
-
-     public static void main(String[] args) {
-        run();
-    }
 }
