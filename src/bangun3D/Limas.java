@@ -1,7 +1,5 @@
 package bangun3D;
 
-import bangun2D.Persegi;
-
 public abstract class Limas {
     private double tinggi;
 
