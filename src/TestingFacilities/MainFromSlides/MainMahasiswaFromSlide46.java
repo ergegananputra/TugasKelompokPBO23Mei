@@ -1,6 +1,6 @@
 package TestingFacilities.MainFromSlides;
 
-import Paket.Mahasiswa;
+import PercobaanStatic.Mahasiswa;
 
 public class MainMahasiswaFromSlide46 {
     public static void run(){
@@ -27,5 +27,18 @@ public class MainMahasiswaFromSlide46 {
 
         System.out.println(st2.getProdi());
         System.out.println(st2.getNama());
+
+
+        // Slide 47
+        // Error karena setProdi() bukan method static
+//        Mahasiswa.setProdi("Software Engineering Technology");
+//        System.out.println(st1.getProdi());
+//        System.out.println(st1.getNama());
+//
+//        System.out.println(st2.getProdi());
+//        System.out.println(st2.getNama());
+
+
+        // Untuk slide 48 ubah method pada Mahasiswa
     }
 }
