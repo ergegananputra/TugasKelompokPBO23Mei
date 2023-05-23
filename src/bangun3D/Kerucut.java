@@ -21,7 +21,7 @@ public class Kerucut extends Tabung{
     }
     
     public double getVolume() {
-        return Matematika.phi*getR()*getR()*getTinggi();
+        return Matematika.phi*getR()*getR()*getTinggi()/3;
     }
     
     @Override
