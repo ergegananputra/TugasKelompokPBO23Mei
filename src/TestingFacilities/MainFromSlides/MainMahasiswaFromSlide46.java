@@ -3,7 +3,7 @@ package TestingFacilities.MainFromSlides;
 import Paket.Mahasiswa;
 
 public class MainMahasiswaFromSlide46 {
-    public static void main(){
+    public static void run(){
         // Error karena atribut private
 //        System.out.println(Mahasiswa.prodi);
         // Error karena atribut non-static
